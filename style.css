@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-32.0512deg, #FF416C, #FF4B2B);
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+}
+.container{
+    box-shadow: 0px 0px 27px 8px #FF416C;
+    -webkit-box-shadow: 0px 0px 27px 8px #FF416C;
+    -moz-box-shadow: 0px 0px 27px 8px #FF416C;
+    background-color: white;
+    height: 560px;
+    width: 360px;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    margin: 35px auto;
+
+}
+.header{
+    margin: auto 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    
+    background: -webkit-linear-gradient(-32.0512deg,#FF416C, #FF4B2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+    
+}
+.form{
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    align-items: flex-start;
+}
+.form_feild{
+    
+    padding: 7px;
+    width: 230px;
+    border: none;
+    border-bottom: 1px solid #FF416C;
+    background-color: transparent;
+}
+.text{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
+
+    background: -webkit-linear-gradient(-32.0512deg,#FF416C, #FF4B2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+
+    
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+
+    border-radius: 25px;
+    background:linear-gradient(-32.0512deg, #FF416C, #FF4B2B);
+    color: white;
+
+    border: transparent;
+    cursor: pointer;
+}
+
+.btn:hover {
+
+    box-shadow: 0px 0px 10px 2px #FF416C;
+    -webkit-box-shadow: 0px 0px 10px 2px #FF416C;
+    -moz-box-shadow: 0px 0px 10px 2px #FF416C;
+
+
+    background: transparent;
+    font-weight: bold;
+    background: -webkit-linear-gradient(-32.0512deg,#FF416C, #FF4B2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transition: all .3s ease-in-out;
+
+    border: 1px solid #FF4B2B;
+    
+}
+.text-msg{
+    color: red;
+}
